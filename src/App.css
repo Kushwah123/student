@@ -1,38 +1,51 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.d-flex py-2 {
+  text-align: center;
+}
+.container py-4
+.studentdat, table, td,th {
+  border: red;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.top {
+  border-color: aqua;
+}
+table, td, th {  
+  border: 1px solid rgb(59, 29, 168);
+  text-align: center;
+  
+}
+th {
+  background-color: blue;
+  color: #ddd;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+th, td {
+  padding: 5px;
+}
+.report {
+  height: 250px;
+  border: 2px solid blue;
+  background-color: none;
+  
+
+}
+.center{
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#top1 {
+  border: none;
 }
+
+
+
